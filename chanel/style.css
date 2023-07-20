@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.card{
+    position: relative;
+    width: 750px;
+    height: 525px;
+    /* background-color: white; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,20%);
+    border-radius: 20px;
+}
+
+.bg-image{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    /* float: left; */
+    z-index: 1;
+}
+.bg-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.text{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    /* background-color: white; */
+    /* float: left; */
+    /* left: 50%; */
+    left: 0;
+    z-index: 0;
+    animation: move 2s cubic-bezier(0.075, 0.82, 0.165, 1) 2s forwards;
+}
+
+@media screen and (max-width:750px){
+    .card{
+        width: 100%;
+        /* background-color: white; */
+    }
+    .bg-image{
+        width: 70%;
+        height: 50%;
+        left: 50%;
+        transform: translate(-50%,-10%);
+    }
+    .text{
+        width: 70%;
+        left: 50%;
+        top: 52%;
+        /* padding-top: 10%; */
+        transform: translate(-50%,-10%);
+        background-color: white;
+        animation: none;
+    }
+}
+@keyframes move {
+    from{
+        left:0;
+        /* opacity: 0; */
+    }
+
+    to{
+        left: 50%;
+        /* opacity: 1; */
+    }
+}
+.text h3,p,span{
+    padding-left: 30px;
+}
+.text :nth-child(2){
+    font-size: 40px;
+}
+.text :nth-child(3){
+    font-size: 17px;
+}
+.price{
+    padding-left: 20%;
+    margin-top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+    color: rgb(65, 142, 65);
+}
+.button{
+    position: relative;
+    width: 63%;
+    height: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color:rgb(65, 142, 65);
+    border-radius:10px ;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-family: serif;
+    cursor: pointer;
+}
+.button img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 14%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.button:hover{
+    transition: 1s;
+    background-color: rgb(31, 78, 31);
+}
+/*------------- responsive============ */
+
+
