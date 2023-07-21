@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(112, 112, 169);
+}
+
+.custom-field{
+    position: relative;
+
+}
+.placeholder{
+    position: absolute;
+    left: 25px;
+    top: calc(50% + 2px);
+    transform:translatey(-50%);
+    color: #aaa;
+    font-size: 14px;
+    transition: 
+    top 0.3s ease,
+    font-size 0.3s ease,
+    color 0.3s ease;
+
+}
+.custom-field input:valid + .placeholder,
+.custom-field input:focus + .placeholder{
+    top: -15px;
+    font-size: 10px;
+    color: rgb(255, 255, 33);
+}
+.email{
+    width: 250px;
+    margin: 20px;
+    height: 25px;
+    border: none;
+    outline: none;
+}
+.email:focus::placeholder {
+    color: transparent;
+}
+.email::placeholder{
+    color: #222;
+    transition: color 0.3s ease;
+}
+/* ---One---- */
+.custom-field.one input{
+    background: none;
+    border: 2px solid rgb(124, 124, 147);
+    transition: border-color 0.3s ease;
+
+}
+.custom-field.one input:valid,
+.custom-field.one input:focus{
+    border-color:#222;
+    transition-delay: 0.1s;
+}
+.custom-field.one input:valid + .placeholder,
+.custom-field.one input:focus + .placeholder{
+    top: -5px;
+    background-color: rgb(112, 112, 169);
+    padding: 0 5px 0 5px;
+}
+/* ---TWO---- */
+.custom-field.two input{
+    background:
+    linear-gradient(90deg, #222, #222)center bottom/0% 2px no-repeat,
+    linear-gradient(90deg, #a7a7a7, #a7a7a7)left bottom/100% 2px no-repeat,
+    linear-gradient(90deg, #fafafa, #fafafa)left bottom/100% no-repeat;
+    transition: background-size 0.3s ease;
+}
+.custom-field.two input:valid,
+.custom-field.two input:focus{
+    background-size: 100% 2px, 100% 2px,100%;
+}
