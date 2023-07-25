@@ -72,11 +72,14 @@ body{
     left: 0;
 }
 .item{
+    transition: 1s;
     background-color:rgb(210, 190, 198);
     height: 40px;
     list-style-type: none;
     border: 3px solid white;
-    /* border-radius: 5px; */
+    text-align: center;
+    padding-top: 5.5px;
+    border-radius: 5px;
 }
 .error{
     color: rgb(181, 5, 5);

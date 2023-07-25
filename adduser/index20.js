@@ -1,7 +1,7 @@
 const myform = document.querySelector('#my-form');
 const emailInput = document.querySelector('#email');
 const nameInput = document.querySelector('#name');
-const Itemsuser = document.querySelector('#Items');
+const Itemsuser = document.querySelector('#items');
 const msg = document.querySelector('.msg');
 
 
@@ -15,8 +15,15 @@ function onSubmit(e){
     }else{
         msg.innerHTML = '';
         msg.classList.remove('error');
+        const li = document.createElement('li');
+    
+        li.appendChild(document.createTextNode(`
+        ${nameInput.value} : ${emailInput.value}
+        `))
+        Itemsuser.appendChild(li);
 
-
+        li.classList.add('item');
+        li.style.transition="1s";
     }
     if(!nameInput.value){
         nameInput.classList.add('false');
@@ -37,6 +44,6 @@ function onSubmit(e){
 
 
 
-    
-    console.log(emailInput.value);
+
+    // console.log(Itemsuser);
 }
