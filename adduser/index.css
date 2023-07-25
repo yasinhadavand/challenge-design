@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    /* background-color: black; */
+}
+.container{
+    width: 50%;
+    height: auto;
+    background-color: rgb(210, 190, 198);
+    border-radius: 5px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 30px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+#my-form{
+    /* position: relative; */
+    /* width: 50%; */
+    /* height: 50%; */
+}
+.label{
+    position: absolute;
+    margin-top: 5px;
+    left: 15%;
+}
+.btn{
+    /* background-color: aqua; */
+}
+.msg{
+    /* position: fixed;
+    left: 50%;
+    top: 0; */
+    /* background-color: aqua; */
+    /* width: 50%; */
+    /* height: 20px; */
+}
+.move{
+    width: 270px;
+    height: 30px;
+    margin: 25px 0 0 28px;
+    border: solid 1px black;
+    border-radius: 5px;
+    outline:none;
+    /* outline-color:green ; */
+}
+.false{
+    transition: 0.1s;
+    transition-delay: 0.5s;
+    outline: solid;
+    outline-color:red ;
+}
+.true{
+
+    transition: 0.3s;
+    transition-delay: 0.3s;
+    outline: solid;
+    outline-color:green ;
+
+}
+#items{
+    position: absolute;    
+    width: 100%;
+    height: auto;
+    top: 100%;
+    left: 0;
+}
+.item{
+    background-color:rgb(210, 190, 198);
+    height: 40px;
+    list-style-type: none;
+    border: 3px solid white;
+    /* border-radius: 5px; */
+}
+.error{
+    color: rgb(181, 5, 5);
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: end;
+    transition: 0.3s;
+}
