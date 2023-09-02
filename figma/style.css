@@ -1,0 +1,583 @@
+
+.resturent-website {
+    background: linear-gradient(180deg, rgb(249.69, 249.69, 249.69) 0%, rgb(252, 252, 252) 100%);
+    background-color: rgba(255, 255, 255, 1);
+    height: 1169px;
+    position: relative;
+    width: 1728px;
+  }
+  
+  .resturent-website .overlap {
+    height: 30px;
+    left: 1328px;
+    position: absolute;
+    top: 62px;
+    width: 35px;
+  }
+  
+  .resturent-website .fi-rr-shopping-bag {
+    height: 24px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 6px !important;
+    width: 24px !important;
+  }
+  
+  .resturent-website .group {
+    height: 20px;
+    left: 13px;
+    position: absolute;
+    top: 0;
+    width: 22px;
+  }
+  
+  .resturent-website .overlap-group {
+    background-color: #39da49;
+    border-radius: 10px;
+    height: 20px;
+    position: relative;
+    width: 20px;
+  }
+  
+  .resturent-website .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 5px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+  }
+  
+  .resturent-website .div {
+    height: 868px;
+    left: 805px;
+    position: absolute;
+    top: 144px;
+    width: 787px;
+  }
+  
+  .resturent-website .rectangle {
+    background-color: #52eb61;
+    border-radius: 500px;
+    height: 654px;
+    left: 124px;
+    position: absolute;
+    top: 143px;
+    width: 663px;
+  }
+  
+  .resturent-website .intersect {
+    height: 797px;
+    left: 64px;
+    position: absolute;
+    top: 0;
+    width: 722px;
+  }
+  
+  .resturent-website .rectangle-2 {
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 7px 35px 51px #00000024;
+    height: 132px;
+    left: 438px;
+    position: absolute;
+    top: 736px;
+    width: 349px;
+  }
+  
+  .resturent-website .text-wrapper-2 {
+    color: #2b2b2b;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    left: 584px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 752px;
+  }
+  
+  .resturent-website .element {
+    color: transparent;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 584px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 816px;
+  }
+  
+  .resturent-website .span {
+    color: #ff7979;
+  }
+  
+  .resturent-website .text-wrapper-3 {
+    color: #505050;
+    font-size: 24px;
+  }
+  
+  .resturent-website .p {
+    color: transparent;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 180px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 816px;
+  }
+  
+  .resturent-website .group-2 {
+    height: 16px;
+    left: 584px;
+    position: absolute;
+    top: 790px;
+    width: 108px;
+  }
+  
+  .resturent-website .fi-sr-star {
+    height: 16px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 16px !important;
+  }
+  
+  .resturent-website .fi-sr-star-instance {
+    height: 16px !important;
+    left: 23px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 16px !important;
+  }
+  
+  .resturent-website .icon-instance-node {
+    height: 16px !important;
+    left: 46px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 16px !important;
+  }
+  
+  .resturent-website .fi-sr-star-2 {
+    height: 16px !important;
+    left: 69px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 16px !important;
+  }
+  
+  .resturent-website .fi-br-star {
+    height: 16px !important;
+    left: 92px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 16px !important;
+  }
+  
+  .resturent-website .group-3 {
+    height: 16px;
+    left: 180px;
+    position: absolute;
+    top: 790px;
+    width: 108px;
+  }
+  
+  .resturent-website .fi-sr-star-3 {
+    height: 16px !important;
+    left: 584px !important;
+    position: absolute !important;
+    top: 790px !important;
+    width: 16px !important;
+  }
+  
+  .resturent-website .fi-sr-star-4 {
+    height: 16px !important;
+    left: 607px !important;
+    position: absolute !important;
+    top: 790px !important;
+    width: 16px !important;
+  }
+  
+  .resturent-website .fi-sr-star-5 {
+    height: 16px !important;
+    left: 630px !important;
+    position: absolute !important;
+    top: 790px !important;
+    width: 16px !important;
+  }
+  
+  .resturent-website .fi-sr-star-6 {
+    height: 16px !important;
+    left: 653px !important;
+    position: absolute !important;
+    top: 790px !important;
+    width: 16px !important;
+  }
+  
+  .resturent-website .fi-br-star-instance {
+    height: 16px !important;
+    left: 676px !important;
+    position: absolute !important;
+    top: 790px !important;
+    width: 16px !important;
+  }
+  
+  .resturent-website .overlap-wrapper {
+    height: 67px;
+    left: 0;
+    position: absolute;
+    top: 178px;
+    width: 250px;
+  }
+  
+  .resturent-website .div-wrapper {
+    background-image: url(./rectangle-24.svg);
+    background-size: 100% 100%;
+    height: 169px;
+    left: -25px;
+    position: relative;
+    top: -29px;
+    width: 350px;
+  }
+  
+  .resturent-website .text-wrapper-4 {
+    color: #ff6868;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 47px;
+    white-space: nowrap;
+  }
+  
+  .resturent-website .rectangle-3 {
+    background-color: #646464;
+    filter: blur(80px);
+    height: 31px;
+    left: 108px;
+    position: absolute;
+    top: 722px;
+    width: 124px;
+  }
+  
+  .resturent-website .rectangle-4 {
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 7px 35px 51px #00000024;
+    height: 132px;
+    left: 34px;
+    position: absolute;
+    top: 736px;
+    width: 349px;
+  }
+  
+  .resturent-website .group-4 {
+    height: 92px;
+    left: 180px;
+    position: absolute;
+    top: 754px;
+    width: 154px;
+  }
+  
+  .resturent-website .text-wrapper-5 {
+    color: #2b2b2b;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .resturent-website .element-2 {
+    color: transparent;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 63px;
+  }
+  
+  .resturent-website .group-5 {
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 37px;
+    width: 108px;
+  }
+  
+  .resturent-website .fi-br-star-2 {
+    height: 16px !important;
+    left: 70px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 16px !important;
+  }
+  
+  .resturent-website .mask-group {
+    height: 98px;
+    left: 458px;
+    position: absolute;
+    top: 754px;
+    width: 98px;
+  }
+  
+  .resturent-website .img {
+    height: 98px;
+    left: 54px;
+    position: absolute;
+    top: 754px;
+    width: 98px;
+  }
+  
+  .resturent-website .overlap-2 {
+    background-color: #39da49;
+    border-radius: 40px;
+    box-shadow: -2px 22px 38px #8eff9980;
+    height: 80px;
+    left: 159px;
+    position: absolute;
+    top: 728px;
+    width: 229px;
+  }
+  
+  .resturent-website .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 24px;
+    white-space: nowrap;
+  }
+  
+  .resturent-website .text-wrapper-7 {
+    color: #39da49;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 466px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 64px;
+  }
+  
+  .resturent-website .text-wrapper-8 {
+    color: #272727;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 892px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 64px;
+  }
+  
+  .resturent-website .text-wrapper-9 {
+    color: #4c4c4c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    left: 417px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 752px;
+    white-space: nowrap;
+  }
+  
+  .resturent-website .group-wrapper {
+    height: 30px;
+    left: 724px;
+    position: absolute;
+    top: 65px;
+    width: 117px;
+  }
+  
+  .resturent-website .group-6 {
+    height: 30px;
+    position: relative;
+    width: 119px;
+  }
+  
+  .resturent-website .text-wrapper-10 {
+    color: #272727;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .resturent-website .group-7 {
+    height: 9px;
+    left: 104px;
+    position: absolute;
+    top: 12px;
+    width: 15px;
+  }
+  
+  .resturent-website .group-8 {
+    height: 30px;
+    left: 586px;
+    position: absolute;
+    top: 65px;
+    width: 83px;
+  }
+  
+  .resturent-website .group-9 {
+    height: 9px;
+    left: 68px;
+    position: absolute;
+    top: 12px;
+    width: 15px;
+  }
+  
+  .resturent-website .overlap-3 {
+    background-color: #39da49;
+    border-radius: 40px;
+    height: 60px;
+    left: 1395px;
+    position: absolute;
+    top: 47px;
+    width: 179px;
+  }
+  
+  .resturent-website .text-wrapper-11 {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 70px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
+  
+  .resturent-website .fi-rr-phone-call {
+    height: 24px !important;
+    left: 32px !important;
+    position: absolute !important;
+    top: 18px !important;
+    width: 24px !important;
+  }
+  
+  .resturent-website .dive-into-delights {
+    color: transparent;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-size: 62px;
+    font-weight: 800;
+    left: 159px;
+    letter-spacing: 0;
+    line-height: 90.2px;
+    position: absolute;
+    top: 329px;
+    width: 596px;
+  }
+  
+  .resturent-website .text-wrapper-12 {
+    color: #000000;
+  }
+  
+  .resturent-website .text-wrapper-13 {
+    color: #39da49;
+  }
+  
+  .resturent-website .text-wrapper-14 {
+    color: #4a4a4a;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 26px;
+    font-weight: 500;
+    left: 159px;
+    letter-spacing: 0;
+    line-height: 44.3px;
+    position: absolute;
+    top: 568px;
+    width: 622px;
+  }
+  
+  .resturent-website .polygon-wrapper {
+    background-color: #ffffff;
+    border-radius: 40px;
+    box-shadow: 6px 27px 34px #0000001a;
+    height: 80px;
+    left: 606px;
+    position: absolute;
+    top: 725px;
+    width: 80px;
+  }
+  
+  .resturent-website .polygon {
+    height: 27px;
+    left: 31px;
+    position: absolute;
+    top: 27px;
+    width: 24px;
+  }
+  
+  .resturent-website .icon-search {
+    height: 32px;
+    left: 1250px;
+    position: absolute;
+    top: 66px;
+    width: 32px;
+  }
+  
+  .resturent-website .overlap-4 {
+    height: 41px;
+    left: 160px;
+    position: absolute;
+    top: 57px;
+    width: 103px;
+  }
+  
+  .resturent-website .rectangle-5 {
+    background-color: #39da49;
+    border-radius: 8px;
+    height: 41px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 34px;
+  }
+  
+  .resturent-website .f {
+    height: 24px;
+    left: 2px;
+    position: absolute;
+    top: 8px;
+    width: 18px;
+  }
+  
+  .resturent-website .oodi {
+    height: 23px;
+    left: 33px;
+    position: absolute;
+    top: 8px;
+    width: 70px;
+  }
+  
